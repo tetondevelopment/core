@@ -1,4 +1,4 @@
-# Ark Core - Elasticsearch
+# Teton Core - Elasticsearch
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

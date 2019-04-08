@@ -1,6 +1,6 @@
 {
     "name": "@arkecosystem/core-logger-winston",
-    "description": "Winston Logger for Ark Core",
+    "description": "Winston Logger for Teton Core",
     "version": "2.2.2",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",

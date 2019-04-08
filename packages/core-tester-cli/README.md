@@ -1,4 +1,4 @@
-# Ark Core - Tester CLI
+# Teton Core - Tester CLI
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

@@ -1,4 +1,4 @@
-# Ark Core - GraphQL
+# Teton Core - GraphQL
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

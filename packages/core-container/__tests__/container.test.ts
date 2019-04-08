@@ -17,7 +17,7 @@ beforeEach(async () => {
     await app.setUp(
         "2.0.0",
         {
-            token: "ark",
+            token: "teton",
             network: "testnet",
         },
         {

@@ -1,4 +1,4 @@
-# Ark Core - Error Tracker - Bugsnag
+# Teton Core - Error Tracker - Bugsnag
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

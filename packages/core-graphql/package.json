@@ -1,6 +1,6 @@
 {
     "name": "@arkecosystem/core-graphql",
-    "description": "GraphQL Integration for Ark Core",
+    "description": "GraphQL Integration for Teton Core",
     "version": "2.2.2",
     "contributors": [
         "Lúcio Rubens <lucio@ark.io>"

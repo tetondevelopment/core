@@ -23,7 +23,7 @@ class TransactionSerializer {
     private serializeCommon(transaction: ITransactionData, buffer: ByteBuffer): void {
         buffer.writeByte(0xff); // fill, to disambiguate from v1
         buffer.writeByte(transaction.version || 0x01); // version
-        buffer.writeByte(transaction.network || configManager.get("pubKeyHash")); // ark = 0x17, devnet = 0x30
+        buffer.writeByte(transaction.network || configManager.get("pubKeyHash")); // teton = 0x17, devnet = 0x30
         buffer.writeByte(transaction.type);
         buffer.writeUint32(transaction.timestamp);
         buffer.append(transaction.senderPublicKey, "hex");

@@ -8,13 +8,13 @@ export class StartCommand extends AbstractStartCommand {
 
     public static examples: string[] = [
         `Run a forger with a bip39 passphrase
-$ ark forger:start --bip39="..."
+$ teton forger:start --bip39="..."
 `,
         `Run a forger with an encrypted bip38
-$ ark forger:start --bip38="..." --password="..."
+$ teton forger:start --bip38="..." --password="..."
 `,
         `Run a forger without a daemon
-$ ark forger:start --no-daemon
+$ teton forger:start --no-daemon
 `,
     ];
 

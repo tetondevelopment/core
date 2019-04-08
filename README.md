@@ -1,8 +1,4 @@
-# Ark Core
-
-<p align="center">
-    <img src="./banner.png" />
-</p>
+# Teton Core
 
 [![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/core)](https://circleci.com/gh/ArkEcosystem/core)
 [![Codecov](https://badgen.now.sh/codecov/c/github/arkecosystem/core)](https://codecov.io/gh/arkecosystem/core)
@@ -10,7 +6,7 @@
 
 ## Introduction
 
-This repository contains all plugins that make up the Ark Core.
+This repository contains all plugins that make up the Teton Core.
 
 ## Documentation
 

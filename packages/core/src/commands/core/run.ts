@@ -7,22 +7,22 @@ export class RunCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Run core
-$ ark core:run
+$ teton core:run
 `,
         `Run core as genesis
-$ ark core:run --networkStart
+$ teton core:run --networkStart
 `,
         `Disable any discovery by other peers
-$ ark core:run --disableDiscovery
+$ teton core:run --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark core:run --skipDiscovery
+$ teton core:run --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark core:run --ignoreMinimumNetworkReach
+$ teton core:run --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark core:run --launchMode=seed
+$ teton core:run --launchMode=seed
 `,
     ];
 

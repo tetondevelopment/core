@@ -7,7 +7,7 @@ export class RestartCommand extends AbstractRestartCommand {
 
     public static examples: string[] = [
         `Restart the forger
-$ ark forger:restart
+$ teton forger:restart
 `,
     ];
 

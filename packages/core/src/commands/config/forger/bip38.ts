@@ -13,7 +13,7 @@ export class BIP38Command extends BaseCommand {
 
     public static examples: string[] = [
         `Configure a delegate using an encrypted BIP38
-$ ark config:forger:bip38 --bip39="..." --password="..."
+$ teton config:forger:bip38 --bip39="..." --password="..."
 `,
     ];
 

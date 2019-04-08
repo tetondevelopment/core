@@ -12,7 +12,7 @@ export class TopCommand extends BaseCommand {
 
     public static examples: string[] = [
         `List all core daemons
-$ ark top
+$ teton top
 `,
     ];
 

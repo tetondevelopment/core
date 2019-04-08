@@ -1,4 +1,4 @@
-# Ark Core - P2P API
+# Teton Core - P2P API
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

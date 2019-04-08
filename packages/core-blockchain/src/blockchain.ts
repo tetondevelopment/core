@@ -75,9 +75,9 @@ export class Blockchain implements blockchain.IBlockchain {
 
         if (this.state.networkStart) {
             logger.warn(
-                "Ark Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong. :warning:",
+                "Teton Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong. :warning:",
             );
-            logger.info("Starting Ark Core for a new world, welcome aboard :rocket:");
+            logger.info("Starting Teton Core for a new world, welcome aboard :rocket:");
         }
 
         this.actions = stateMachine.actionMap(this);

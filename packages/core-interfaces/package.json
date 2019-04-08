@@ -1,6 +1,6 @@
 {
     "name": "@arkecosystem/core-interfaces",
-    "description": "Interface types for essential Ark core modules",
+    "description": "Interface types for essential Teton Core modules",
     "version": "2.2.2",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",

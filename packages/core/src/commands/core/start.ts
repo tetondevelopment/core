@@ -8,25 +8,25 @@ export class StartCommand extends AbstractStartCommand {
 
     public static examples: string[] = [
         `Run core with a daemon
-$ ark core:start
+$ teton core:start
 `,
         `Run core as genesis
-$ ark core:start --networkStart
+$ teton core:start --networkStart
 `,
         `Disable any discovery by other peers
-$ ark core:start --disableDiscovery
+$ teton core:start --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark core:start --skipDiscovery
+$ teton core:start --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark core:start --ignoreMinimumNetworkReach
+$ teton core:start --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark core:start --launchMode=seed
+$ teton core:start --launchMode=seed
 `,
         `Run core without a daemon
-$ ark core:start --no-daemon
+$ teton core:start --no-daemon
 `,
     ];
 

@@ -10,10 +10,10 @@ export class ForgerCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Configure a delegate using an encrypted BIP38
-$ ark config:forger --method=bip38
+$ teton config:forger --method=bip38
 `,
         `Configure a delegate using a BIP39 passphrase
-$ ark config:forger --method=bip39
+$ teton config:forger --method=bip39
 `,
     ];
 

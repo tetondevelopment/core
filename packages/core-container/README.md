@@ -1,4 +1,4 @@
-# Ark Core - Container
+# Teton Core - Container
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

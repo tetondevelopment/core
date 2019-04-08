@@ -1,6 +1,6 @@
 {
     "name": "@arkecosystem/core-event-emitter",
-    "description": "Event Manager for Ark Core",
+    "description": "Event Manager for Teton Core",
     "version": "2.2.2",
     "contributors": [
         "Brian Faust <brian@ark.io>"

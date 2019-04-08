@@ -7,7 +7,7 @@ export class RestartCommand extends AbstractRestartCommand {
 
     public static examples: string[] = [
         `Restart the core
-$ ark core:restart
+$ teton core:restart
 `,
     ];
 

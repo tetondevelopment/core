@@ -1,7 +1,7 @@
-# Ark Core Docker
+# Teton Core Docker
 
 <p align="center">
-    <img src="./ark-core-docker.png" width="100%" height="100%" />
+    <img src="./teton-core-docker.png" width="100%" height="100%" />
 </p>
 
 ## Introduction
@@ -58,9 +58,9 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     volumes:
-     - ~/.config/ark-core:/home/node/.config/ark-core
-     - ~/.local/share/ark-core:/home/node/.local/share/ark-core
-     - ~/.local/state/ark-core:/home/node/.local/state/ark-core
+     - ~/.config/teton-core:/home/node/.config/teton-core
+     - ~/.local/share/teton-core:/home/node/.local/share/teton-core
+     - ~/.local/state/teton-core:/home/node/.local/state/teton-core
      - /etc/timezone:/etc/timezone:ro
      - /etc/localtime:/etc/localtime:ro
      - ./enc:/run/secrets
@@ -136,9 +136,9 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     volumes:
-     - ~/.config/ark-core:/home/node/.config/ark-core
-     - ~/.local/share/ark-core:/home/node/.local/share/ark-core
-     - ~/.local/state/ark-core:/home/node/.local/state/ark-core
+     - ~/.config/teton-core:/home/node/.config/teton-core
+     - ~/.local/share/teton-core:/home/node/.local/share/teton-core
+     - ~/.local/state/teton-core:/home/node/.local/state/teton-core
      - /etc/timezone:/etc/timezone:ro
      - /etc/localtime:/etc/localtime:ro
      - ./enc:/run/secrets

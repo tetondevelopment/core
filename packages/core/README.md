@@ -1,4 +1,4 @@
-# Ark Core - Core
+# Teton Core - Core
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

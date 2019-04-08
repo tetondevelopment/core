@@ -42,7 +42,7 @@ export class PostgresConnection implements Database.IDatabaseConnection {
         if (fs.existsSync(spvPath)) {
             (fs as any).removeSync(spvPath);
 
-            this.logger.info("Ark Core ended unexpectedly - resuming from where we left off :runner:");
+            this.logger.info("Teton Core ended unexpectedly - resuming from where we left off :runner:");
 
             return true;
         }

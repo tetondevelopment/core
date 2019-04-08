@@ -11,7 +11,7 @@ export class PublishCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Publish the configuration for the mainnet network
-$ ark config:publish --network=mainnet
+$ teton config:publish --network=mainnet
 `,
     ];
 

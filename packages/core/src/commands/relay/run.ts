@@ -7,22 +7,22 @@ export class RunCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Run a relay
-$ ark relay:run
+$ teton relay:run
 `,
         `Run a genesis relay
-$ ark relay:run --networkStart
+$ teton relay:run --networkStart
 `,
         `Disable any discovery by other peers
-$ ark relay:run --disableDiscovery
+$ teton relay:run --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark relay:run --skipDiscovery
+$ teton relay:run --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark relay:run --ignoreMinimumNetworkReach
+$ teton relay:run --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark relay:run --launchMode=seed
+$ teton relay:run --launchMode=seed
 `,
     ];
 

@@ -13,7 +13,7 @@ const main = async () => {
     } = await prompts([{
         type: 'text',
         name: 'corePath',
-        initial: expandHomeDir('~/ark-core'),
+        initial: expandHomeDir('~/teton-core'),
         message: 'Where is the installation located at? [press ENTER to use default]',
         validate: value => fs.existsSync(value) ? true : `${value} does not exist.`
     }, {

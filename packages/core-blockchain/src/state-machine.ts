@@ -152,7 +152,7 @@ blockchainMachine.actionMap = (blockchain: Blockchain) => ({
     },
 
     exitApp() {
-        app.forceExit("Failed to startup blockchain. Exiting Ark Core! :rotating_light:");
+        app.forceExit("Failed to startup blockchain. Exiting Teton Core! :rotating_light:");
     },
 
     async init() {

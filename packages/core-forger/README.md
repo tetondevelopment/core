@@ -1,4 +1,4 @@
-# Ark Core - Forger
+# Teton Core - Forger
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

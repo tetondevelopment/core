@@ -1,4 +1,4 @@
-# Ark Core - Logger - Interface
+# Teton Core - Logger - Interface
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

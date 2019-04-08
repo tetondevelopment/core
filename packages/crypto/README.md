@@ -1,4 +1,4 @@
-# Ark - Crypto
+# Teton - Crypto
 
 <p align="center">
     <img src="./banner.png?sanitize=true" />

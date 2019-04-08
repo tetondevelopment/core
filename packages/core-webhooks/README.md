@@ -1,4 +1,4 @@
-# Ark Core - Webhooks
+# Teton Core - Webhooks
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

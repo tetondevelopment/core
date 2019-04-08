@@ -1,4 +1,4 @@
-# Ark Core - Database - Interface
+# Teton Core - Database - Interface
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

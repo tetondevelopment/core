@@ -10,7 +10,7 @@ export class ListCommand extends BaseCommand {
 
     public static examples: string[] = [
         `List all environment variables
-$ ark env:list
+$ teton env:list
 `,
     ];
 

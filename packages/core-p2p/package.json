@@ -1,6 +1,6 @@
 {
     "name": "@arkecosystem/core-p2p",
-    "description": "P2P API for Ark Core",
+    "description": "P2P API for Teton Core",
     "version": "2.2.2",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",

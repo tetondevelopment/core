@@ -1,4 +1,4 @@
-# Ark Core - Transaction Pool
+# Teton Core - Transaction Pool
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

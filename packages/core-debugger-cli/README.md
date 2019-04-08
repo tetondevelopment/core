@@ -1,4 +1,4 @@
-# Ark Core - Debugger CLI
+# Teton Core - Debugger CLI
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

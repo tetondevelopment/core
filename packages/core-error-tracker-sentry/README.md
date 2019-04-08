@@ -1,4 +1,4 @@
-# Ark Core - Error Tracker - Sentry
+# Teton Core - Error Tracker - Sentry
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

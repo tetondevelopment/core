@@ -28,9 +28,9 @@ describe("constructor - networkStart", () => {
         await __start(true);
 
         expect(loggerWarn).toHaveBeenCalledWith(
-            "Ark Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong. :warning:",
+            "Teton Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong. :warning:",
         );
-        expect(loggerInfo).toHaveBeenCalledWith("Starting Ark Core for a new world, welcome aboard :rocket:");
+        expect(loggerInfo).toHaveBeenCalledWith("Starting Teton Core for a new world, welcome aboard :rocket:");
     });
 
     describe("dispatch", () => {

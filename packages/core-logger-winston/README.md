@@ -1,4 +1,4 @@
-# Ark Core - Winston Logger
+# Teton Core - Winston Logger
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />

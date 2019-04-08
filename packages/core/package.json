@@ -1,6 +1,6 @@
 {
     "name": "@arkecosystem/core",
-    "description": "Core of the Ark Blockchain",
+    "description": "Core of the Teton Blockchain",
     "version": "2.2.2",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
@@ -17,7 +17,7 @@
         "/oclif.manifest.json"
     ],
     "bin": {
-        "ark": "./bin/run"
+        "teton": "./bin/run"
     },
     "scripts": {
         "publish:alpha": "npm publish --tag alpha",
@@ -35,20 +35,20 @@
         "docs": "../../node_modules/typedoc/bin/typedoc src --out docs",
         "lint": "../../node_modules/tslint/bin/tslint -c ../../tslint.json 'src/**/*.ts' '__tests__/**/*.ts' --fix",
         "copy": "cd ./src && cpy './config' '../dist/' --parents && cd ..",
-        "debug:start": "node --inspect-brk yarn ark core:run",
-        "debug:relay": "node --inspect-brk yarn ark relay:run",
-        "debug:forger": "node --inspect-brk yarn ark forger:run",
-        "ark": "./bin/run",
-        "start:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark core:run",
-        "start:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark core:run",
-        "start:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run",
-        "relay:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark relay:run",
-        "relay:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark relay:run",
-        "relay:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark relay:run",
-        "forger:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark forger:run",
-        "forger:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark forger:run",
-        "forger:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark forger:run",
-        "full:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run --networkStart",
+        "debug:start": "node --inspect-brk yarn teton core:run",
+        "debug:relay": "node --inspect-brk yarn teton relay:run",
+        "debug:forger": "node --inspect-brk yarn teton forger:run",
+        "teton": "./bin/run",
+        "start:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn teton core:run",
+        "start:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn teton core:run",
+        "start:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn teton core:run",
+        "relay:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn teton relay:run",
+        "relay:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn teton relay:run",
+        "relay:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn teton relay:run",
+        "forger:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn teton forger:run",
+        "forger:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn teton forger:run",
+        "forger:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn teton forger:run",
+        "full:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn teton core:run --networkStart",
         "updates": "../../node_modules/npm-check-updates/bin/npm-check-updates -a"
     },
     "dependencies": {
@@ -134,7 +134,7 @@
                 "./dist/hooks/command_not_found/suggest"
             ]
         },
-        "bin": "ark",
+        "bin": "teton",
         "topics": {
             "config": {
                 "description": "manage core config variables"

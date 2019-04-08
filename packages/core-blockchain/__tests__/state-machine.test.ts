@@ -230,7 +230,7 @@ describe("State Machine", () => {
             it("should call container forceExit with error message", () => {
                 const forceExit = jest.spyOn(container, "forceExit").mockImplementationOnce(() => null);
                 actionMap.exitApp();
-                expect(forceExit).lastCalledWith("Failed to startup blockchain. Exiting Ark Core! :rotating_light:");
+                expect(forceExit).lastCalledWith("Failed to startup blockchain. Exiting Teton Core! :rotating_light:");
             });
         });
 

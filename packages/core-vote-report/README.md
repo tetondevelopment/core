@@ -1,4 +1,4 @@
-# Ark Core - Vote Report
+# Teton Core - Vote Report
 
 <p align="center">
     <img src="../../banner.png?sanitize=true" />
