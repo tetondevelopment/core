@@ -22,7 +22,6 @@
         "multiPayment": 1000000,
         "delegateResignation": 100000000
       }
-    },
-    "ignoreInvalidSecondSignatureField": true
+    }
   }
 ]
