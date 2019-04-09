@@ -9,7 +9,7 @@
       "maxTransactions": 150,
       "maxPayload": 6291456
     },
-    "epoch": "2019-04-08T01:42:27.189Z",
+    "epoch": "2019-04-08T00:00:00.000Z",
     "fees": {
       "staticFees": {
         "transfer": 1000000,
