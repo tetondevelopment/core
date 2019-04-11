@@ -12,6 +12,6 @@
   "client": {
     "token": "TETON",
     "symbol": "TET",
-    "explorer": "http://159.69.106.87"
+    "explorer": "https://explorer.tetonsavings.com"
   }
 }
