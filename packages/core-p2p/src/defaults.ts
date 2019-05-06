@@ -1,14 +1,14 @@
 export const defaults = {
     host: process.env.CORE_P2P_HOST || "0.0.0.0",
-    port: process.env.CORE_P2P_PORT || 4002,
+    port: process.env.CORE_P2P_PORT || 8001,
     /**
      * The minimum peer version we expect
      */
-    minimumVersions: [">=2.3.0", ">=2.3.0-next.0"],
+    minimumVersions: [">=2.2.0"],
     /**
      * The number of peers we expect to be available to start a relay
      */
-    minimumNetworkReach: 20,
+    minimumNetworkReach: 2,
     /**
      * The timeout for requests to other peers
      */
@@ -16,7 +16,7 @@ export const defaults = {
     /**
      * The number of seconds until we allow forging
      */
-    coldStart: 30,
+    coldStart: 10,
     /**
      * The maximum number of peers we will broadcast data to
      */
