@@ -1,4 +1,4 @@
-# Teton Core Docker
+# ARK Core Docker
 
 <p align="center">
     <img src="./teton-core-docker.png" width="100%" height="100%" />

@@ -12,6 +12,6 @@
   "client": {
     "token": "TETON",
     "symbol": "TET",
-    "explorer": "http://1.2.3.4:4200"
+    "explorer": "http://127.0.0.1:4200"
   }
 }

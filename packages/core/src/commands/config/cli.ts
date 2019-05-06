@@ -10,10 +10,10 @@ export class CommandLineInterfaceCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Set the token that should be used for configuration
-$ teton config:cli --token=mine
+$ teton config:cli --token=teton
 `,
         `Switch the npm registry channel
-$ teton config:cli --channel=mine
+$ teton config:cli --channel=latest
 `,
     ];
 
@@ -23,7 +23,7 @@ $ teton config:cli --channel=mine
         }),
         channel: flags.string({
             description: "the name of the channel that should be used",
-            options: ["alpha", "beta", "rc", "latest"],
+            options: ["next", "latest"],
         }),
     };
 
@@ -62,9 +62,9 @@ $ teton config:cli --channel=mine
 
             const { flags } = await this.parseWithNetwork(CommandLineInterfaceCommand);
 
-            await this.restartProcess(`${flags.token}-core`);
-            await this.restartProcess(`${flags.token}-relay`);
-            await this.restartProcess(`${flags.token}-forger`);
+            await this.restartRunningProcessPrompt(`${flags.token}-core`);
+            await this.restartRunningProcessPrompt(`${flags.token}-relay`);
+            await this.restartRunningProcessPrompt(`${flags.token}-forger`);
         } catch (err) {
             this.error(err.message);
         } finally {

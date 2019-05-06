@@ -202,7 +202,7 @@ success "Installed system updates!"
 heading "Installing Teton Core..."
 
 cd /home/vagrant
-git clone https://github.com/ArkEcosystem/core.git teton-core -b develop
+git clone https://github.com/tetondevelopment/core.git teton-core -b develop
 cd teton-core
 yarn setup
 
