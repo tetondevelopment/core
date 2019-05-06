@@ -4,6 +4,7 @@ sudo /usr/sbin/ntpd -s
 sudo rm -rf /home/node/.config/teton-core/*
 sudo rm -rf /home/node/.local/state/teton-core/*
 sudo chown node:node -R /home/node
+sudo ln -s /home/node/.yarn/bin/ark /usr/bin/ark
 ark config:publish --network=$NETWORK
 sudo rm -f /home/node/.config/teton-core/$NETWORK/.env
 

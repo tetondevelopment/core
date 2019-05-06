@@ -8,6 +8,7 @@
   "pubKeyHash": 65,
   "nethash": "0ac71fc34f7d14c8b8c898541fa74418b1dd78bb3a988787ebdb4ef56f793f54",
   "wif": 170,
+  "slip44": 111,
   "aip20": 0,
   "client": {
     "token": "TETON",
