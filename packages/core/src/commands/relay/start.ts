@@ -42,6 +42,9 @@ $ teton relay:start --no-daemon
             hidden: true,
             default: "relay",
         }),
+        env: flags.string({
+            default: "production",
+        }),
     };
 
     public getClass() {

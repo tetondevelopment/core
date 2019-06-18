@@ -31,7 +31,7 @@ $ teton config:cli --channel=latest
         const { flags } = this.parse(CommandLineInterfaceCommand);
 
         if (flags.token) {
-            configManager.update({ token: flags.token });
+            configManager.set("token", flags.token as string);
         }
 
         if (flags.channel) {
@@ -47,7 +47,7 @@ $ teton config:cli --channel=latest
             return;
         }
 
-        configManager.update({ channel: newChannel });
+        configManager.set("channel", newChannel);
 
         const pkg = `${this.config.name}@${newChannel}`;
 
