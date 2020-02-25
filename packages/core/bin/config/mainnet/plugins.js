@@ -4,9 +4,9 @@ module.exports = {
     "@arkecosystem/core-p2p": {
         server: {
             port: process.env.CORE_P2P_PORT || 8001,
-            minimumNetworkReach: 2,
-            coldStart: 10,
         },
+        minimumNetworkReach: 2,
+        coldStart: 10,
     },
     "@arkecosystem/core-state": {},
     "@arkecosystem/core-magistrate-transactions": {},
