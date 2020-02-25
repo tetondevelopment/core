@@ -21,7 +21,10 @@
         "ipfs": 1000000,
         "timelockTransfer": 1000000,
         "multiPayment": 1000000,
-        "delegateResignation": 100000000
+        "delegateResignation": 100000000,
+        "htlcLock": 1000000,
+        "htlcClaim": 0,
+        "htlcRefund": 0
       }
     },
     "vendorFieldLength": 64
@@ -38,5 +41,10 @@
     "block": {
       "acceptExpiredTransactionTimestamps": false
     }
+  },
+  {
+    "height": 3500000,
+    "multiPaymentLimit": 128,
+    "aip11": true
   }
 ]
