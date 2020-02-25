@@ -18,12 +18,16 @@
         "delegateRegistration": 100000000,
         "vote": 10000000,
         "multiSignature": 10000000,
-        "ipfs": 0,
-        "timelockTransfer": 0,
-        "multiPayment": 0,
-        "delegateResignation": 0
+        "ipfs": 1000000,
+        "timelockTransfer": 1000000,
+        "multiPayment": 1000000,
+        "delegateResignation": 100000000,
+        "htlcLock": 1000000,
+        "htlcClaim": 0,
+        "htlcRefund": 0
       }
     },
-    "vendorFieldLength": 255
+    "vendorFieldLength": 255,
+    "multiPaymentLimit": 128
   }
 ]
