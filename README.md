@@ -8,13 +8,12 @@ This repository contains all plugins that make up the Teton Core.
 
 ## Documentation
 
--   Development : https://docs.ark.io/guidebook/core/development.html
--   Docker : https://docs.ark.io/guidebook/core/docker.html
+-   Development : https://learn.ark.dev/core-getting-started/setting-up-your-development-environment
+-   Docker : https://guides.ark.dev/devops-guides/how-to-setup-a-node-with-docker
 
 ## API Documentation
 
--   API v1 : https://docs.ark.io/api/public/v1/
--   API v2 : https://docs.ark.io/api/public/v2/
+-   API v2 : https://api.ark.dev
 
 ## GitHub Development Bounty
 
